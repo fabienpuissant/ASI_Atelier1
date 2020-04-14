@@ -23,7 +23,13 @@
 
 
 <div class="ui five column grid">
-      <div class="row"></div>
+	  <div class="row"></div>
+	  <div class="row"></div>
+      <div class="row">
+      <div class="column"></div>
+      <div class="column"></div>
+      <button class="ui button" id = "add">Add card</button>
+      </div>
       <div class="row">
           <div class="five column"></div>
       </div>
@@ -78,7 +84,7 @@
                       <div class="ui form tiny">
                           <div class="field">
                               <label id="cardNameId"></label>
-                              <textarea id="cardDescriptionId" class="overflowHiden" readonly="" rows="5">${ description }</textarea>
+                              <textarea id="cardDescriptionId" class="overflowHiden"  rows="5">${ description }</textarea>
                           </div>
                       </div>
                   </div>

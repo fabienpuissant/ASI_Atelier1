@@ -2,6 +2,10 @@
 
 $(document).ready(function(){
 	
+$("#add").click(function(){
+	window.location.replace("http://localhost:8080/WebServiceCard/add");
+});
+	
 var family = $("#cardFamilyNameId").text().trim();
 
 if(family === "DC"){
